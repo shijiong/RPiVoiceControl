@@ -1,0 +1,19 @@
+﻿<Page
+    x:Class="RPiVoiceControl.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:RPiVoiceControl"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+        <StackPanel HorizontalAlignment="Center" VerticalAlignment="Center">
+            <Ellipse x:Name="bedroomLED" Fill="LightGray" Stroke="White" Width="100" Height="100" Margin="10"/>
+            <Ellipse x:Name="kitchenroomLED" Fill="LightGray" Stroke="White" Width="100" Height="100" Margin="10"/>
+            <TextBlock x:Name="GpioStatus" Text="Waiting to initialize GPIO..." Margin="10,50,10,10" TextAlignment="Center" FontSize="26.667" />
+            <TextBlock x:Name="VoiceStatus" Text="Waiting to initialize Microphone" Margin="10,50,10,10" TextAlignment="Center" TextWrapping="Wrap" />
+            <MediaElement x:Name="mediaElement"></MediaElement>
+        </StackPanel>
+    </Grid>
+</Page>

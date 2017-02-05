@@ -1,0 +1,1 @@
+c:\users\dears\documents\visual studio 2015\Projects\RPiVoiceControl\RPiVoiceControl\RPiVoiceControl.csproj;arm
